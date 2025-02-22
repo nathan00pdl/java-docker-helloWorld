@@ -8,7 +8,7 @@ RUN mvn dependency:go-offline
 COPY src/ /app/src
 RUN mvn package -DskipTests
 
-FROM openjdk:17-jre-alpine
+FROM openjdk:17-jdk-alpine
 
 WORKDIR /app
 

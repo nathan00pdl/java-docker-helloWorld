@@ -31,6 +31,6 @@ class HelloWorldControllerTest {
 
     @Test
     void shouldReturnExpectedMessage() throws Exception {
-        mockMvc.perform(get("/api/hello")).andExpect(status().isOk()).andExpect(content().string("Hello World!"));
+        mockMvc.perform(get("/api/hello")).andExpect(status().isOk()).andExpect(content().string("Hello, World!"));
     }
 }

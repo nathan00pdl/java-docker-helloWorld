@@ -19,7 +19,7 @@ Furthermore, this project also contributed to my development by addresing the go
 
 **Start the application using any of the commands mentioned below?**
 
-> **Note:** The commands need to run inside the root folder of this project i.e inside the **java-docker-helloWorld** folder.
+> **Note:** *The commands need to run inside the root folder of this project i.e inside the **java-docker-helloWorld** folder*.
 
 - **Using maven**
   <br/>``` mvn spring-boot:run```
@@ -32,7 +32,7 @@ Furthermore, this project also contributed to my development by addresing the go
   - Image construction: <br/> ```docker build -t image_name .```
   - Climb Container: <br/> ```docker run -d --name container_name -p 9090:9090 image_name```
 
-> **Note:** By default spring boot application starts on port number 8080. If port 8080 is occupied in your system then you can change the port number by uncommenting and updating the **server.port** property inside the **application.properties** file that is available inside the **src > main > resources** folder.
+> **Note:** *By default spring boot application starts on port number 8080. If port 8080 is occupied in your system then you can change the port number by uncommenting and updating the **server.port** property inside the **application.properties** file that is available inside the **src > main > resources** folder.*
 
 <br/>
 
